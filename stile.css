@@ -1,0 +1,801 @@
+body{
+
+	font-family: 'Cuprum', sans-serif;
+	font-size: 15px;
+	color: #19241E;
+	background: #DCE8E6;
+
+	/* IE10 */
+	background-image: -ms-linear-gradient(top, white 0%, #DCE8E6 100%);
+	 
+	/* Mozilla Firefox */
+	background-image: -moz-linear-gradient(top, white 0%, #DCE8E6 100%);
+	
+	/* Opera */
+	background-image: -o-linear-gradient(top, white 0%, #DCE8E6) 100%);
+	 
+	/* Webkit (Safari/Chrome 10) */
+	background-image: -webkit-gradient(linear, top, bottom, color-stop(0, white, color-stop(1, #DCE8E6)));
+	 
+	/* Webkit (Chrome 11+) */
+	background-image: -webkit-linear-gradient(top, white 0%, #DCE8E6 100%);
+	 
+	/* Regola standard */
+	background-image: linear-gradient(top, white 0%, #DCE8E6 100%);
+	
+   
+}
+
+/*MENU RICHIAMI PAGINE TOP PAGE*/
+
+
+#masterpanel2 {
+
+  
+    /*background: -moz-linear-gradient(top, rgba(22,22,22,.7) 0%, rgba(51,51,51,.7) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(22,22,22,.7)), color-stop(100%,rgba(51,51,51,.7)));
+    background: -webkit-linear-gradient(top, rgba(22,22,22,.7) 0%,rgba(51,51,51,.7) 100%);
+    background: -o-linear-gradient(top, rgba(22,22,22,.7) 0%,rgba(51,51,51,.7) 100%);
+    background: linear-gradient(top, rgba(22,22,22,.7) 0%,rgba(51,51,51,.7) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#B2161616,endColorstr=#B2333333);
+    -webkit-box-shadow: 0 1px 10px #00c6ff;
+    box-shadow: 0 1px 10px #00c6ff;*/
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+}
+
+#masterpanel2 ul {
+    padding: 0;
+    margin: 0;
+    float: right;
+    width: 80%;
+    margin: 0 10%;
+    list-style: none;
+    font-size: 1em;
+}
+
+#masterpanel2 ul li {
+    padding: 0;
+    margin: 0;
+    float: right;
+    position: relative;
+    /*border-right: 1px solid #555;*/
+}
+
+/*#masterpanel ul li:first-child {
+    border-left: 1px solid #555;
+}*/
+
+#masterpanel2 ul li a {
+    margin: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+    text-decoration: none;
+    color: #333;
+    position: relative;
+}
+
+
+#masterpanel2 a small {
+
+    text-align: center;
+    width: 90px;
+    padding: 15px 5px;
+    color: black;
+    font-size: 0.8em;
+    text-indent: -1;
+}
+
+#masterpanel2 a:hover small {
+    color:  #CC2C14;
+    z-index:0;
+} 
+
+/*FINE CODICE PANEL CONTATTI*/
+
+
+#wrap{
+
+
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 10px 30px 0 30px;
+	/*background-color: #f5f5f5;*/
+
+}
+
+#TagLine{
+
+	clear: both;
+	display: block;
+		margin-bottom: 60px;
+}
+
+
+#TagLine p{
+
+	font-family: 'Shadows Into Light', cursive;
+	text-align: center;
+	font-weight: italic;
+	font-size: 2em;
+	color: black;
+	
+}
+
+
+
+#wrapper{
+
+	max-width: 100%;
+	margin: 0 auto;
+
+
+}
+
+#wrapBoxServizi{
+
+	clear: both;
+	float:left;
+	width: 100%;
+	margin: 0 0 30px 0;
+}
+
+.footerSite{
+
+	max-width: 100%;
+	clear: both;    /*resetta i contenuti flottati*/
+	margin: 0;
+	padding: 10px 30px 16px 30px;
+	line-height: 1.3;
+	color:rgba(255,255,255,.9);
+	background:#3F3E40;
+	/*background-color:rgba(131,149,89,.8);*/
+	
+}
+
+.footerSite ul{
+
+	display: inline-block;
+	padding-bottom: 30px;
+	list-style: none;
+	margin:0 0 0 25px;
+}
+
+.footerSite ul li{
+
+	padding: 3px 40px;
+}
+.footerSite ul li a{
+
+	text-decoration: none;
+	padding:1px 7px;
+	color:white;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.footerSite ul li a:hover{
+
+	color: #FF7540;
+	-webkit-transition-propriety:color;
+	-webkit-transition-duration: .4s;
+	-webkit.transition-timing-function:linear;
+}
+
+
+#infoFooter p{
+
+	clear: both;
+	text-align: center;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 1.1em;
+
+}
+
+#infoFooter p a{
+
+	font-family: 'Open Sans', sans-serif;
+	color: #34df8d;
+	text-decoration: none;
+	
+}
+
+.disableInfo{
+
+	pointer-events: none;
+    cursor: default;
+}
+
+
+
+/*HEADER*/
+
+head{
+
+	clear: both;
+	margin:0 150px 100px 150px;
+	padding: 0 0 20px 0;
+	
+}
+
+
+/*NAVIGATION*/
+
+/*-HEADER CON LOGO E CONTATTI VELOCI*/
+#NavMenu{
+
+	max-width: 960px;
+	margin:0 auto 50px auto;
+}
+#TopHeader{
+
+	float:left;
+	width: 20%;
+	margin: -35px 0px 0px 0px;
+	background: #007a87;
+
+}
+
+#TopHeader h1{
+
+	font-family: 'Shadows Into Light', cursive;
+	font-weight: normal;
+	text-align: center;
+	font-size: 3em;
+	font-weight: lighter;
+	color:white;
+	padding:0 15px 0 15px;
+}
+
+#TopHeader h2{
+
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size:0.9em;
+	color: white;
+	font-weight: lighter;
+	padding: 0;
+}
+
+
+#bordoHeader{
+
+	margin: -8px 100px 20px 100px;
+
+	border-top: 10px solid #007a87;
+	/* #069b5a; */
+}
+
+
+nav[role="navigation"] ul{
+
+	max-width: 1000px;
+	margin: -10px auto;
+	padding: 110px 30px 20px 30px;
+	list-style: none;
+	text-align: center;
+
+}
+
+
+nav[role="navigation"] ul li{
+
+	float:left;
+	display: inline-block;
+	width: 20%;
+	letter-spacing: 1px;
+
+}
+
+nav[role="navigation"] ul li a{
+
+	display: block;
+	float: left;
+	width: 100%;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 1em;
+	color: #3f3f41;
+	/*font-family: 'Open Sans', sans-serif;*/
+	font-family: 'Cuprum', sans-serif;
+
+	-webkit-transition-propriety:color;
+	-webkit-transition-duration: .4s;
+	-webkit.transition-timing-function:linear;
+
+}
+
+nav[role="navigation"] ul li a:hover{
+
+	color: #FF7540;
+}
+
+nav[role="navigation"] ul li a:active{
+
+	background: #f5f5f5;
+}
+
+
+
+/*FIGURA NELLA HOME*/
+
+figure img,
+embed,
+object,
+video{
+
+	max-width: 100%;
+}
+
+
+/*BOX RICHIAMI SERVIZI*/
+
+
+ul.allBoxServizi li{
+
+	width: 280px;
+	display: inline-block;
+	margin:40px 0px 60px 0px;
+	list-style: none;
+
+}
+
+#boxcentral{
+
+	margin: 0 30px;
+}
+
+ul.allBoxServizi li div.boxServizi {
+
+
+	position: relative;
+	border: 5px solid #e2e1d4;
+	border-radius: 8px;
+	-webkit-border-radius:8px;
+	-moz-border-radius:8px;
+	box-shadow: 4px 4px 6px #bdbcb0;
+	-webkit-box-shadow: 4px 4px 6px #bdbcb0;
+	-moz-box-shadow: 4px 4px 6px #bdbcb0;
+
+}
+
+ul.allBoxServizi li div.boxServizi a span{
+
+	display: block;
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	font-size: 1.1em;
+	font-weight: normal;
+	line-height: 1.3em;
+	color: #ccc;
+	background:#333;
+	background: rgba(0,0,0,0.7);
+	-webkit-transition-propriety:background-color;
+	-webkit-transition-duration: .7s;
+	-webkit.transition-timing-function:linear;
+}
+
+ul.allBoxServizi li div.boxServizi a span strong{
+
+	display: block;
+	padding:10px 20px 15px 20px;
+	font-family: 'Cuprum', sans-serif;
+	font-weight:lighter;
+	font-size: 1.8em;
+	letter-spacing: 1px;
+	color: #fff;
+}
+
+ul.allBoxServizi li div.boxServizi a span em{
+
+	display: block;
+	padding: 0px 10px 10px 10px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: lighter;
+	font-style: normal;
+	color: #e3c887;
+	font-size: 0.8em;
+	
+}
+
+.boxServizi img{
+
+	width: 100%;
+}
+
+
+ul.allBoxServizi li div.boxServizi a span:hover{
+
+	
+	background:rgba(120,100,89,0.70);
+	/*background: rgba(61,152,37,0.75);*/
+}
+
+
+.titleSideBarMain{
+
+
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	font-size: 2.3em;
+	font-weight: bolder;
+	letter-spacing: 3px;
+	color: white;
+	text-align: left;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+
+
+/*FOTO TEAM E BOX ESPERIENZA*/
+
+#mainFoto{
+
+	width: 70%;
+	clear: both;
+	float:left;
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+#mainFoto img{
+
+	width: 100%;
+}
+
+
+/*#mainFoto a:hover{
+
+	transform:scale(0.9,0.9);
+	transition-duration:3s;
+	transition-timing-function:linear;
+	
+	-ms-transform:scale(0.9,0.9);
+	-ms-transition-duration: 3s;
+	-ms.transition-timing-function:linear;
+
+
+	-webkit-transform:scale(0.9,0.9);
+	-webkit-transition-duration: 3s;
+	-webkit.transition-timing-function:linear;
+
+
+}*/
+
+#mainPresentation{
+
+	width: 30%;
+	height:auto;
+	float: right;
+	margin:0;
+	padding: 15px 30px 25px 30px;
+	text-align: left;
+	background: #007a87;
+	
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+#mainPresentation p{
+
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.9em;
+	font-weight: lighter;
+
+}
+
+#mainPresentation a:hover{
+
+
+	text-decoration: none;
+
+}
+
+
+
+#mainPresentation a h3:hover{
+	
+	transform:scale(1.1,1.1);
+	transition-duration:1s;
+	transition-timing-function:linear;
+	
+	-ms-transform:scale(1.1,1.1);
+	-ms-transition-duration: 1s;
+	-ms.transition-timing-function:linear;
+
+
+	-webkit-transform:scale(1.1,1.1);
+	-webkit-transition-duration: 1s;
+	-webkit.transition-timing-function:linear;
+	
+}
+
+
+
+
+
+/*RESPONSIVENESS   - DA SISTEMARE
+
+--------------------------------------------------  */
+
+
+@media screen and (max-width: 800px) {
+
+	nav[role="navigation"] ul li {
+		margin: 26px 0 0 0;
+	}
+
+	nav[role="navigation"] ul li a{
+		font-size: 0.9em;
+	}
+
+	#mainFoto{
+
+		float: none;
+		width: auto;
+		padding: 0;
+		font-size: .9em;
+		line-height: 1.5;
+		width: 700px;
+	}
+
+	#mainFoto a:hover{
+
+		/*levare effetto over---- DA FARE--*/
+	}
+
+	#mainPresentation{
+		clear: both;
+		float:left;
+		width: 100%;
+	}
+
+	.allBoxServizi li{
+
+		float:none;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 550px) {
+
+	#wrap{
+
+		padding: 0 15px;
+	}
+
+	.slider-wrapper,
+	#slider{
+
+		display: none;
+	}
+
+	#TopHeader{
+
+	float:none;
+	width: auto;
+	margin:0;
+	background: #007a87;
+
+	}
+
+	#TopHeader h1{
+
+		font-family: 'Shadows Into Light', cursive;
+		font-weight: normal;
+		text-align: center;
+		font-size: 2em;
+		font-weight: lighter;
+		color:white;
+		padding:0 15px 0 15px;
+	}
+
+	#TopHeader h2{
+
+		text-align: center;
+		font-family: 'Open Sans', sans-serif;
+		font-size:1em;
+		color: white;
+		font-weight: lighter;
+		padding: 0;
+	}
+
+	#bordoHeader{
+
+ 	border-top: none;
+	/* #069b5a; */
+	}
+
+	#masterpanel2 {
+
+	margin: 100px 0 0px 0;
+    width: 100%;
+	}
+
+	#masterpanel2 ul {
+	    
+		text-align: center;
+		border-bottom: 1px solid grey;
+		       
+	}
+
+	#masterpanel2 ul li {
+	    
+		float:none;
+		display: inline-block;
+		width: auto;
+		margin: 10px 0;
+		font-size: 1.5em;
+	    
+	}
+
+	
+	#masterpanel2 a small {
+
+	   display: inline;
+	}
+
+	#masterpanel2 a:hover small {
+	    color:  #CC2C14;
+	    z-index:0;
+	} 
+	
+
+	nav[role="navigation"] ul{
+
+		text-align: center;
+		margin-top: 50px;
+	}
+
+	nav[role="navigation"] ul li{
+
+		float:none;
+		display: block;
+		width: auto;
+		margin: 25px 0;
+		font-size: 1.3em;
+	}
+
+	nav[role="navigation"] ul li a{
+
+		float: none;
+		display: block;
+		width: auto;
+
+	}
+
+	#TagLine{
+
+		font-size: 0.7em;
+	}
+
+	#wrapBoxServizi{
+
+		clear: both;
+		max-width: 550px;
+		margin: 0;
+		padding: 0;
+	}
+
+	ul.allBoxServizi li{
+
+	width: auto;
+	display: block;
+	margin:25px 0;
+	list-style: none;
+
+	}
+	
+	.allBoxServizi{
+
+		max-width: 550px;
+		margin: 0;
+		padding: 0;
+		float:left;
+		display: block;
+		
+	}
+
+	#boxcentral{
+
+	margin: 0;
+	}
+	
+	#mainFoto{
+
+		display: none;
+	}
+
+	#mainPresentation{
+
+		clear: both;
+		float:none;
+		width: auto;
+		margin: 25px 0;
+		font-size: 1em;
+	}
+
+	#mainPresentation h3{
+
+		font-size: 1.4em;
+		text-align: center;
+
+	}
+
+	
+	a:hover{
+
+		pointer-events: none;
+        cursor: default;
+
+	}
+
+
+
+	.footerSite{
+
+	max-width: 550px;
+	clear: both;    /*resetta i contenuti flottati*/
+	margin: 0;
+	padding: 10px;
+	line-height: 1.3;
+	color:rgba(255,255,255,.9);
+	background:#3F3E40;
+	/*background-color:rgba(131,149,89,.8);*/
+	
+	}
+
+	.footerSite ul{
+
+		display: inline-block;
+		padding-bottom: 10px;
+		list-style: none;
+		margin:10px 0;
+	}
+
+	.footerSite ul li{
+
+		padding: 5px 0px;
+		font-size: 0.8em;
+	}
+	.footerSite ul li a{
+
+		text-decoration: none;
+		padding:1px 0px;
+		color:white;
+		font-family: 'Open Sans', sans-serif;
+	}
+
+	
+	#infoFooter p{
+
+		margin-top: 30px;
+		clear: both;
+		text-align: center;
+		font-family: 'Shadows Into Light', cursive;
+		font-size: 1.1em;
+
+	}
+
+	#infoFooter p a{
+
+		font-family: 'Open Sans', sans-serif;
+		color: #34df8d;
+		text-decoration: none;
+		
+	}
+		
+}

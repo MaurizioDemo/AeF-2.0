@@ -1,0 +1,254 @@
+#listaLavori{
+
+	width:960px;
+	margin:0 auto;
+}
+
+#listaLavori dl{
+
+	float: left;
+	margin:30px 20px;
+	padding:0;
+}
+
+#listaLavori dt{
+
+	width: 80%;
+	float:left; 
+	margin:0 0 20px 0;
+	padding:0;
+	font-size: 1.5em;
+	letter-spacing: 0.2em;
+	color:black;
+}
+
+#listaLavori dd{
+
+	float: left;
+	margin:0;
+	padding:0;
+	font-size: 0.9em;
+	line-height: 1.5em;
+	color:#666;
+	text-align: justify;
+}
+#listaLavori dd.img img{
+	
+	float:left;
+	margin: 0 8px 0 0;
+	padding: 4px 4px 10px 4px;
+	background: #fff;
+}
+
+#listaLavori .alt dt{
+	
+	float: left;
+}
+
+#listaLavori .alt dd.img img{
+	
+	float: right;
+	margin: 0 0 0 8px;
+}
+#listaLavori dd a{
+
+	text-decoration: none;
+	color: #007a87;
+	font-weight: bold;
+	letter-spacing: 0.2em;
+
+
+}
+
+#listaLavori p{
+
+	text-align: center;
+	font-size: 2em;
+	letter-spacing: 0.2em;
+	font-weight: bold;
+	color: #007a87;
+	padding: 40px 0 10px 0;
+	font-family: 'Shadows Into Light', cursive;
+}
+
+
+@media screen and (max-width: 550px) {
+
+	#wrap{
+
+		padding: 0 15px;
+	}
+
+	.slider-wrapper,
+	#slider{
+
+		display: none;
+	}
+
+	#TopHeader{
+
+	float:none;
+	width: auto;
+	margin:0;
+	background: #007a87;
+
+	}
+
+	#TopHeader h1{
+
+		font-family: 'Shadows Into Light', cursive;
+		font-weight: normal;
+		text-align: center;
+		font-size: 2em;
+		font-weight: lighter;
+		color:white;
+		padding:0 15px 0 15px;
+	}
+
+	#TopHeader h2{
+
+		text-align: center;
+		font-family: 'Open Sans', sans-serif;
+		font-size:1em;
+		color: white;
+		font-weight: lighter;
+		padding: 0;
+	}
+
+	#bordoHeader{
+
+ 	border-top: none;
+	/* #069b5a; */
+	}
+
+	#masterpanel2 {
+
+	margin: 100px 0 0px 0;
+    width: 100%;
+	}
+
+	#masterpanel2 ul {
+	    
+		text-align: center;
+		border-bottom: 1px solid grey;
+		       
+	}
+
+	#masterpanel2 ul li {
+	    
+		float:none;
+		display: inline-block;
+		width: auto;
+		margin: 10px 0;
+		font-size: 1.5em;
+	    
+	}
+
+	
+	#masterpanel2 a small {
+
+	   display: inline;
+	}
+
+	#masterpanel2 a:hover small {
+	    color:  #CC2C14;
+	    z-index:0;
+	} 
+	
+
+	nav[role="navigation"] ul{
+
+		text-align: center;
+		margin-top: 50px;
+	}
+
+	nav[role="navigation"] ul li{
+
+		float:none;
+		display: block;
+		width: auto;
+		margin: 25px 0;
+		font-size: 1.3em;
+	}
+
+	nav[role="navigation"] ul li a{
+
+		float: none;
+		display: block;
+		width: auto;
+
+	}
+
+
+	
+	a:hover{
+
+		pointer-events: none;
+        cursor: default;
+
+	}
+
+
+
+	#listaLavori{
+
+	width:auto;
+	margin:0 auto;
+	}
+
+	
+
+	.footerSite{
+
+	max-width: 550px;
+	clear: both;    /*resetta i contenuti flottati*/
+	margin: 0;
+	padding: 10px;
+	line-height: 1.3;
+	color:rgba(255,255,255,.9);
+	background:#3F3E40;
+	/*background-color:rgba(131,149,89,.8);*/
+	
+	}
+
+	.footerSite ul{
+
+		display: inline-block;
+		padding-bottom: 10px;
+		list-style: none;
+		margin:10px 0;
+	}
+
+	.footerSite ul li{
+
+		padding: 5px 0px;
+		font-size: 0.8em;
+	}
+	.footerSite ul li a{
+
+		text-decoration: none;
+		padding:1px 0px;
+		color:white;
+		font-family: 'Open Sans', sans-serif;
+	}
+
+	
+	#infoFooter p{
+
+		margin-top: 30px;
+		clear: both;
+		text-align: center;
+		font-family: 'Shadows Into Light', cursive;
+		font-size: 1.1em;
+
+	}
+
+	#infoFooter p a{
+
+		font-family: 'Open Sans', sans-serif;
+		color: #34df8d;
+		text-decoration: none;
+		
+	}
+		
+}
